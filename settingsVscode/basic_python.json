@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "pylint.args": [
+        "--max-line-length=150",
+        "--disable=C0111"
+    ],
+    "black-formatter.args": [
+        "--line-length",
+        "150"
+    ]
+}
